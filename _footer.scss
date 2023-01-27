@@ -1,0 +1,36 @@
+footer{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    .foot{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        a{
+            margin-top: 20px;
+            color: white;
+            text-decoration: None;
+        }
+        p{
+            margin-top: 20px;
+            color: white;
+            text-decoration: None;
+        }
+    }
+    .media{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        a{
+            text-decoration: None;
+        }
+    }
+    .right{
+        display: flex;
+        justify-content: space-around;
+        p{
+            color: white;
+            margin-top: 5px;
+        }
+    }
+}

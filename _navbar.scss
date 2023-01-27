@@ -1,0 +1,24 @@
+nav{
+    height: 10vh;
+    .search{
+            display:flex;
+            justify-content: space-between;
+            a{
+                color: black;
+                text-decoration: None;
+            }
+           }
+    .foods{
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+        a{
+            color: black;
+            text-decoration: None;
+        }
+        
+    }
+    
+    
+    
+}

@@ -1,0 +1,62 @@
+@import "navbar";
+@import "footer";
+
+*{
+    margin: 0px;
+}
+
+
+.pics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vh;
+    margin: 20vh;
+    height: 100vh;
+    .pic{
+        height: 75%;
+        width: 75%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .bl{
+            position: absolute;
+            height: 10vh;
+            background-color: black;
+            opacity: 0.33;
+            top: 44.5%;
+            width: 20.2%;
+            p{
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+        }   
+        .bl2{
+            position: absolute;
+            height: 10vh;
+            background-color: black;
+            opacity: 0.33;
+            top: 78.1%;
+            width: 20.2%;
+            p{
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+        }
+        .bl3{
+            position: absolute;
+            height: 10vh;
+            background-color: black;
+            opacity: 0.33;
+            top: 111.7%;
+            width: 20.2%;
+            p{
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+        }
+    }
+}

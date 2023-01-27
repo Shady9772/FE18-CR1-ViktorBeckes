@@ -1,0 +1,121 @@
+nav {
+  height: 10vh;
+}
+nav .search {
+  display: flex;
+  justify-content: space-between;
+}
+nav .search a {
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .foods {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+nav .foods a {
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+
+footer {
+  height: 15vh;
+  width: 100%;
+  background-color: black;
+}
+footer .foot {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .foot a {
+  margin-top: 20px;
+  color: white;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .foot p {
+  margin-top: 20px;
+  color: white;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .media {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+footer .media a {
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .right {
+  display: flex;
+  justify-content: space-around;
+}
+footer .right p {
+  color: white;
+  margin-top: 5px;
+}
+
+* {
+  margin: 0px;
+}
+
+.pics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1vh;
+  margin: 20vh;
+  height: 100vh;
+}
+.pics .pic {
+  height: 75%;
+  width: 75%;
+}
+.pics .pic img {
+  height: 100%;
+  width: 100%;
+}
+.pics .pic .bl {
+  position: absolute;
+  height: 10vh;
+  background-color: black;
+  opacity: 0.33;
+  top: 44.5%;
+  width: 20.2%;
+}
+.pics .pic .bl p {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.pics .pic .bl2 {
+  position: absolute;
+  height: 10vh;
+  background-color: black;
+  opacity: 0.33;
+  top: 78.1%;
+  width: 20.2%;
+}
+.pics .pic .bl2 p {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.pics .pic .bl3 {
+  position: absolute;
+  height: 10vh;
+  background-color: black;
+  opacity: 0.33;
+  top: 111.7%;
+  width: 20.2%;
+}
+.pics .pic .bl3 p {
+  display: flex;
+  justify-content: center;
+  color: white;
+}/*# sourceMappingURL=FoodBlog.css.map */
