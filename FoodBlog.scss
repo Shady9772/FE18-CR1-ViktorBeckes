@@ -1,4 +1,5 @@
 @import "navbar";
+@import "Pictures";
 @import "footer";
 
 *{
@@ -9,10 +10,11 @@
 .pics{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5vh;
-    width: 200vh;
-    height: 200vh;
-    margin: 1vh;
-    .pic{
-        background-image: url("pasta.jpg");
-        }    }}
+    justify-content: center;
+    gap: 7vh;
+    width: 150vh;
+    height: 150vh;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+} 

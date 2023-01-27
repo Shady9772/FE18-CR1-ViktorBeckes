@@ -1,13 +1,28 @@
 nav{
-    height: 10vh;
+    height: 15vh;
     .search{
+            height: 50%;
             display:flex;
             justify-content: space-between;
             a{
                 color: black;
                 text-decoration: None;
             }
-           }
+            .a1{
+                font-family: 'Brush Script MT', cursive;
+                font-weight: bold;
+                font-size: 300%;
+                margin-left: 5%;
+                color: black;
+                text-decoration: None;
+            }
+            .a2{
+                margin-top: 1%;
+                margin-right: 3%;
+                color: black;
+                text-decoration: None;
+            }
+}
     .foods{
         margin: 20px;
         display: flex;
@@ -15,10 +30,6 @@ nav{
         a{
             color: black;
             text-decoration: None;
-        }
-        
-    }
-    
-    
-    
+        }   
+    }   
 }

@@ -20,17 +20,18 @@ footer{
     .media{
         display: flex;
         justify-content: center;
-        margin-top: 50px;
+        gap: 5%;
         a{
+            margin-top: 1%;
             text-decoration: None;
         }
     }
     .right{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         p{
+            margin-top: 1%;
             color: white;
-            margin-top: 5px;
         }
     }
 }
