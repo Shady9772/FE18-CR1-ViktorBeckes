@@ -6,6 +6,7 @@
   margin-top: 70%;
 }
 
+/* Using positioning attributes, place the images with their respective overlays as in the example (hint: remember that for an absolute position child element, the parent element must use position relative). Alternatively, you can use background-image attribute instead.*/
 .pic1 {
   background-image: url("pasta.jpg");
   background-size: cover;
@@ -69,6 +70,7 @@
   height: 100%;
 }
 
+/* Using positioning attributes, place the images with their respective overlays as in the example (hint: remember that for an absolute position child element, the parent element must use position relative). Alternatively, you can use background-image attribute instead.*/
 nav {
   height: 20vh;
   width: 100%;
@@ -220,6 +222,8 @@ footer .right .cpr:hover {
   color: grey;
 }
 
+/*Use SASS/SCSS tools to style your website.*/
+/* Use CSS selectors (classes and/or IDs) to style your web page. Make sure the classes have useful and proper names. Stick to the English language for it.*/
 * {
   margin: 0px;
 }
@@ -228,6 +232,7 @@ footer .right .cpr:hover {
   font-family: fantasy;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /*Correct usage of Flexbox and/or Grid (when necessary). The elements should be displayed according to the design given, respecting the columns and rows.*/
   justify-content: center;
   gap: 7vh;
   width: 150vh;
@@ -303,15 +308,17 @@ footer .right .cpr:hover {
   width: 80%;
 }
 
-@media only screen and (max-width: 1172px) {
+/*Create a Media Query for tablets. For this option, as the tablet resolution is wider, two columns should be able to fit in the screen. *Research what is the most popular tablet breaking point.*/
+@media screen and (min-width: 768px) and (max-width: 962px) {
   .pics {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20%;
+    width: 20vh;
   }
 }
-@media only screen and (max-width: 480px) {
+/*Correct usage of Media Queries. For mobile resolution of =< 480px, you should use the second guide template.*/
+@media screen and (max-width: 480px) {
   .pics {
     grid-template-columns: repeat(1, 1fr);
-    gap: 20%;
+    width: 20vh;
   }
 }/*# sourceMappingURL=FoodBlog.css.map */

@@ -5,6 +5,7 @@
     opacity: 0.7;
     margin-top: 70%;
 }
+/* Using positioning attributes, place the images with their respective overlays as in the example (hint: remember that for an absolute position child element, the parent element must use position relative). Alternatively, you can use background-image attribute instead.*/
 .pic1{
     background-image: url("pasta.jpg");
     background-size: cover;
