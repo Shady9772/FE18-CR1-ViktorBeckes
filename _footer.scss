@@ -3,6 +3,7 @@ footer{
     width: 100%;
     background-color: black;
     .foot{
+        font-family: fantasy;
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -16,6 +17,18 @@ footer{
             color: white;
             text-decoration: None;
         }
+        .about:hover{
+            color:red;
+        }
+        .recipes:hover{
+            color:red;
+        }
+        .faq:hover{
+            color:red;
+        }
+        .contact:hover{
+            color:red;
+        }
     }
     .media{
         display: flex;
@@ -25,13 +38,26 @@ footer{
             margin-top: 1%;
             text-decoration: None;
         }
+        .fa-twitter:hover{
+            color:red;
+        }
+        .fa-youtube:hover{
+            color:red;
+        }
+        .fa-facebook:hover{
+            color:red;
+        }
     }
     .right{
+        font-style: italic;
         display: flex;
         justify-content: center;
         p{
             margin-top: 1%;
-            color: white;
+            color: white; 
+        }
+        .cpr:hover{
+            color:grey;
         }
     }
 }

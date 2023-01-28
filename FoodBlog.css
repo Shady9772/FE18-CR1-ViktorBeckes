@@ -11,6 +11,9 @@ nav .search a {
   -webkit-text-decoration: None;
           text-decoration: None;
 }
+nav .search a:hover {
+  color: red;
+}
 nav .search .a1 {
   font-family: "Brush Script MT", cursive;
   font-weight: bold;
@@ -21,13 +24,21 @@ nav .search .a1 {
           text-decoration: None;
 }
 nav .search .a2 {
+  font-family: fantasy;
   margin-top: 1%;
   margin-right: 3%;
   color: black;
   -webkit-text-decoration: None;
           text-decoration: None;
 }
+nav .search .a2:hover {
+  color: red;
+}
+nav .search .a2:hover .together {
+  color: red;
+}
 nav .foods {
+  font-family: fantasy;
   margin: 20px;
   display: flex;
   justify-content: space-around;
@@ -37,12 +48,36 @@ nav .foods a {
   -webkit-text-decoration: None;
           text-decoration: None;
 }
+nav .foods .pasta:hover {
+  color: red;
+}
+nav .foods .taco:hover {
+  color: red;
+}
+nav .foods .pizza:hover {
+  color: red;
+}
+nav .foods .dessert:hover {
+  color: red;
+}
+nav .foods .breakfast:hover {
+  color: red;
+}
+nav .foods .lunch:hover {
+  color: red;
+}
+nav .foods .dinner:hover {
+  color: red;
+}
+nav .foods .recipe:hover {
+  color: red;
+}
 
 .p {
   background-color: black;
   height: 30%;
   width: 100%;
-  opacity: 0.4;
+  opacity: 0.7;
   margin-top: 70%;
 }
 
@@ -115,6 +150,7 @@ footer {
   background-color: black;
 }
 footer .foot {
+  font-family: fantasy;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -131,6 +167,18 @@ footer .foot p {
   -webkit-text-decoration: None;
           text-decoration: None;
 }
+footer .foot .about:hover {
+  color: red;
+}
+footer .foot .recipes:hover {
+  color: red;
+}
+footer .foot .faq:hover {
+  color: red;
+}
+footer .foot .contact:hover {
+  color: red;
+}
 footer .media {
   display: flex;
   justify-content: center;
@@ -141,7 +189,17 @@ footer .media a {
   -webkit-text-decoration: None;
           text-decoration: None;
 }
+footer .media .fa-twitter:hover {
+  color: red;
+}
+footer .media .fa-youtube:hover {
+  color: red;
+}
+footer .media .fa-facebook:hover {
+  color: red;
+}
 footer .right {
+  font-style: italic;
   display: flex;
   justify-content: center;
 }
@@ -149,12 +207,16 @@ footer .right p {
   margin-top: 1%;
   color: white;
 }
+footer .right .cpr:hover {
+  color: grey;
+}
 
 * {
   margin: 0px;
 }
 
 .pics {
+  font-family: fantasy;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
@@ -170,4 +232,20 @@ footer .right p {
   color: white;
   display: flex;
   justify-content: space-around;
+}
+
+.error {
+  background-image: linear-gradient(white, grey, black);
+  height: 100vh;
+  width: 100%;
+}
+.error h1 {
+  color: red;
+  font-size: 500%;
+  margin-left: 30%;
+}
+
+.recipe {
+  height: 100vh;
+  width: 100%;
 }/*# sourceMappingURL=FoodBlog.css.map */

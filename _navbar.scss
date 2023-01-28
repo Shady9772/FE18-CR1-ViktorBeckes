@@ -8,6 +8,9 @@ nav{
                 color: black;
                 text-decoration: None;
             }
+            a:hover{
+                color: red;
+            }    
             .a1{
                 font-family: 'Brush Script MT', cursive;
                 font-weight: bold;
@@ -17,19 +20,52 @@ nav{
                 text-decoration: None;
             }
             .a2{
+                font-family: fantasy;
                 margin-top: 1%;
                 margin-right: 3%;
                 color: black;
                 text-decoration: None;
             }
-}
+            .a2:hover{
+                color: red;
+                .together{
+                    color: red;
+                }
+            }
+    }
     .foods{
+        font-family: fantasy;
         margin: 20px;
         display: flex;
         justify-content: space-around;
         a{
             color: black;
             text-decoration: None;
-        }   
+        }
+        .pasta:hover{
+            color: red;
+        }  
+        .taco:hover{
+            color: red;
+        }
+        .pizza:hover{
+            color: red;
+        }
+        .dessert:hover{
+            color: red;
+        }
+        .breakfast:hover{
+            color: red;
+        }
+        .lunch:hover{
+            color: red;
+        }
+        .dinner:hover{
+            color: red;
+        } 
+        .recipe:hover{
+            color: red;
+        } 
     }   
-}
+}   
+

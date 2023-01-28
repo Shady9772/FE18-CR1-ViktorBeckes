@@ -8,6 +8,7 @@
 
 
 .pics{
+    font-family: fantasy;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -24,3 +25,19 @@
         justify-content: space-around;
     }
 } 
+
+.error{
+    background-image: linear-gradient(white, grey, black);
+    height: 100vh;
+    width: 100%;
+    h1{
+        color: red;
+        font-size: 500%;
+        margin-left: 30%;
+    }
+}
+
+.recipe{
+    height: 100vh;
+    width: 100%;
+}
