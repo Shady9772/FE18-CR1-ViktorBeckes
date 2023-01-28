@@ -39,9 +39,10 @@ nav .search .a2:hover .together {
 }
 nav .foods {
   font-family: fantasy;
-  margin: 20px;
+  height: 50%;
+  width: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 nav .foods a {
   color: black;
@@ -69,7 +70,7 @@ nav .foods .lunch:hover {
 nav .foods .dinner:hover {
   color: red;
 }
-nav .foods .recipe:hover {
+nav .foods .page2:hover {
   color: red;
 }
 
@@ -150,8 +151,8 @@ footer {
   background-color: black;
 }
 footer .foot {
-  font-family: fantasy;
   width: 100%;
+  font-family: fantasy;
   display: flex;
   justify-content: space-around;
 }
@@ -180,6 +181,7 @@ footer .foot .contact:hover {
   color: red;
 }
 footer .media {
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 5%;
@@ -199,6 +201,7 @@ footer .media .fa-facebook:hover {
   color: red;
 }
 footer .right {
+  width: 100%;
   font-style: italic;
   display: flex;
   justify-content: center;
@@ -245,7 +248,7 @@ footer .right .cpr:hover {
   margin-left: 30%;
 }
 
-.recipe {
+.page2 {
   height: 100vh;
   width: 100%;
 }/*# sourceMappingURL=FoodBlog.css.map */

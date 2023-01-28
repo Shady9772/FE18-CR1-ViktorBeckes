@@ -35,9 +35,10 @@ nav{
     }
     .foods{
         font-family: fantasy;
-        margin: 20px;
+        height: 50%;
+        width: 50%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between; 
         a{
             color: black;
             text-decoration: None;
@@ -63,7 +64,7 @@ nav{
         .dinner:hover{
             color: red;
         } 
-        .recipe:hover{
+        .page2:hover{
             color: red;
         } 
     }   

@@ -3,8 +3,8 @@ footer{
     width: 100%;
     background-color: black;
     .foot{
-        font-family: fantasy;
         width: 100%;
+        font-family: fantasy;
         display: flex;
         justify-content: space-around;
         a{
@@ -31,6 +31,7 @@ footer{
         }
     }
     .media{
+        width: 100%;
         display: flex;
         justify-content: center;
         gap: 5%;
@@ -49,6 +50,7 @@ footer{
         }
     }
     .right{
+        width: 100%;
         font-style: italic;
         display: flex;
         justify-content: center;
