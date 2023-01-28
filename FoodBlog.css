@@ -103,7 +103,7 @@ nav .foods a {
 }
 
 .pic9 {
-  background-image: url("eggsalat.jpg");
+  background-image: url("taco.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -164,4 +164,10 @@ footer .right p {
   margin-top: 5%;
   margin-left: 12%;
   margin-bottom: 5%;
+}
+.pics .w {
+  margin-top: 3%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=FoodBlog.css.map */
