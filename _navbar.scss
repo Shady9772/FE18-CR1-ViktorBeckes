@@ -1,7 +1,8 @@
 nav{
-    height: 15vh;
+    height: 20vh;
+    width: 100%;
     .search{
-            height: 50%;
+            height: 40%;
             display:flex;
             justify-content: space-between;
             a{
@@ -34,14 +35,17 @@ nav{
             }
     }
     .foods{
-        font-family: fantasy;
         height: 50%;
-        width: 50%;
+        font-family: fantasy;
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-around;
         a{
+            margin-top: 2%;
+            margin-left: 5%;
+            margin-right: 4%;
+            text-decoration: none;
+            height: 50%;
             color: black;
-            text-decoration: None;
         }
         .pasta:hover{
             color: red;
@@ -67,6 +71,9 @@ nav{
         .page2:hover{
             color: red;
         } 
-    }   
+    } 
+    .l{
+        font-weight: bold;
+    }  
 }   
 

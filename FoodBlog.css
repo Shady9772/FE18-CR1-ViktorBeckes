@@ -1,79 +1,3 @@
-nav {
-  height: 15vh;
-}
-nav .search {
-  height: 50%;
-  display: flex;
-  justify-content: space-between;
-}
-nav .search a {
-  color: black;
-  -webkit-text-decoration: None;
-          text-decoration: None;
-}
-nav .search a:hover {
-  color: red;
-}
-nav .search .a1 {
-  font-family: "Brush Script MT", cursive;
-  font-weight: bold;
-  font-size: 300%;
-  margin-left: 5%;
-  color: black;
-  -webkit-text-decoration: None;
-          text-decoration: None;
-}
-nav .search .a2 {
-  font-family: fantasy;
-  margin-top: 1%;
-  margin-right: 3%;
-  color: black;
-  -webkit-text-decoration: None;
-          text-decoration: None;
-}
-nav .search .a2:hover {
-  color: red;
-}
-nav .search .a2:hover .together {
-  color: red;
-}
-nav .foods {
-  font-family: fantasy;
-  height: 50%;
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-}
-nav .foods a {
-  color: black;
-  -webkit-text-decoration: None;
-          text-decoration: None;
-}
-nav .foods .pasta:hover {
-  color: red;
-}
-nav .foods .taco:hover {
-  color: red;
-}
-nav .foods .pizza:hover {
-  color: red;
-}
-nav .foods .dessert:hover {
-  color: red;
-}
-nav .foods .breakfast:hover {
-  color: red;
-}
-nav .foods .lunch:hover {
-  color: red;
-}
-nav .foods .dinner:hover {
-  color: red;
-}
-nav .foods .page2:hover {
-  color: red;
-}
-
 .p {
   background-color: black;
   height: 30%;
@@ -145,8 +69,90 @@ nav .foods .page2:hover {
   height: 100%;
 }
 
+nav {
+  height: 20vh;
+  width: 100%;
+}
+nav .search {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .search a {
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search a:hover {
+  color: red;
+}
+nav .search .a1 {
+  font-family: "Brush Script MT", cursive;
+  font-weight: bold;
+  font-size: 300%;
+  margin-left: 5%;
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search .a2 {
+  font-family: fantasy;
+  margin-top: 1%;
+  margin-right: 3%;
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search .a2:hover {
+  color: red;
+}
+nav .search .a2:hover .together {
+  color: red;
+}
+nav .foods {
+  height: 50%;
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-around;
+}
+nav .foods a {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 4%;
+  text-decoration: none;
+  height: 50%;
+  color: black;
+}
+nav .foods .pasta:hover {
+  color: red;
+}
+nav .foods .taco:hover {
+  color: red;
+}
+nav .foods .pizza:hover {
+  color: red;
+}
+nav .foods .dessert:hover {
+  color: red;
+}
+nav .foods .breakfast:hover {
+  color: red;
+}
+nav .foods .lunch:hover {
+  color: red;
+}
+nav .foods .dinner:hover {
+  color: red;
+}
+nav .foods .page2:hover {
+  color: red;
+}
+nav .l {
+  font-weight: bold;
+}
+
 footer {
-  height: 15vh;
+  height: 8vw;
   width: 100%;
   background-color: black;
 }
@@ -157,13 +163,13 @@ footer .foot {
   justify-content: space-around;
 }
 footer .foot a {
-  margin-top: 20px;
+  margin-top: 1%;
   color: white;
   -webkit-text-decoration: None;
           text-decoration: None;
 }
 footer .foot p {
-  margin-top: 20px;
+  margin-top: 1%;
   color: white;
   -webkit-text-decoration: None;
           text-decoration: None;
@@ -248,7 +254,25 @@ footer .right .cpr:hover {
   margin-left: 30%;
 }
 
-.page2 {
+.error {
+  background-image: linear-gradient(white, grey, black);
   height: 100vh;
   width: 100%;
+}
+.error h1 {
+  color: red;
+  font-size: 500%;
+  margin-left: 30%;
+}
+
+.recipe {
+  padding: 10%;
+  background-image: linear-gradient(white, rgb(228, 228, 87));
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 10% black;
+  font-family: "Happy Monkey", cursive;
+}
+.recipe li {
+  margin: 10%;
 }/*# sourceMappingURL=FoodBlog.css.map */
