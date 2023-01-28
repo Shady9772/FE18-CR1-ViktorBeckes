@@ -24,6 +24,18 @@
         display: flex;
         justify-content: space-around;
     }
+    div:hover{
+        background-color: red;
+        opacity: 0.5;
+        .w{
+            background-color: red;
+            opacity: 0.5;
+        }
+        .p{
+            background-color: red;
+            opacity: 0.5;
+        }
+    }
 } 
 
 .error{
@@ -48,17 +60,43 @@
     }
 }
 .recipe{
-    padding: 10%;
-    background-image: linear-gradient(white, rgb(228, 228, 87),);
-    height: 100%;
-    width: 100%;
-    box-shadow: 0px 0px 10% black;
-    font-family: 'Happy Monkey', cursive;
-    li{
-        margin: 10%;
+    font-family: fantasy;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    gap: 7vh;
+    width: 150vh;
+    height: 150vh;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    background-image: linear-gradient(white,yellow);  
+    box-shadow: 0px 0px 10px black;
+    .content{
+        height: 100%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+        text-align: center;
+        img{
+            height: 50%;
+            width: 80%;
+        }
     }
-    
+}
+@media only screen and (max-width: 1172px) {
+    .pics {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .pics {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20%;
+    }
 }
 
 
 
+  
