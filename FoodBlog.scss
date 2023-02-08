@@ -15,17 +15,11 @@
     /*Correct usage of Flexbox and/or Grid (when necessary). The elements should be displayed according to the design given, respecting the columns and rows.*/
     justify-content: center;
     gap: 7vh;
-    width: 150vh;
-    height: 150vh;
-    margin-top: 5%;
-    margin-left: 12%;
-    margin-bottom: 5%;
+    width: 80%;
+    margin: 40px auto;
     .w{
-        margin-top: 3%;
         color: white;
-        display: flex;
-        justify-content: space-around;
-    }
+text-align: center;    }
     div:hover{
         background-color: red;
         opacity: 0.5;
@@ -76,17 +70,15 @@
     }
 }
 /*Create a Media Query for tablets. For this option, as the tablet resolution is wider, two columns should be able to fit in the screen. *Research what is the most popular tablet breaking point.*/
-@media screen and (min-width: 768px) and (max-width: 962px) {
+@media screen and (min-width: 651px) and (max-width: 962px) {
     .pics {
       grid-template-columns: repeat(2, 1fr);
-      width: 20vh;;
     }
 }
 /*Correct usage of Media Queries. For mobile resolution of =< 480px, you should use the second guide template.*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
     .pics {
       grid-template-columns: repeat(1, 1fr);
-      width: 20vh;
     }
 }
 
